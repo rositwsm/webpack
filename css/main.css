@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.test {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  padding-top: 30px;
+}
+p:nth-child(odd){
+    background-color: pink;
+}
+p:nth-child(even){
+    background-color: red;
+}
+p:first-of-type{
+    background-color: yellow;
+}
+p:last-of-type{
+    background-color: blueviolet;
+}
